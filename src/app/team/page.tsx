@@ -130,12 +130,13 @@ export default function TeamPage() {
                             <NeubrutalistCard color={member.color as any} className="text-center hover:-translate-y-2 transition-transform duration-300">
                                 <div className="mb-6 flex justify-center">
                                     {member.image ? (
-                                        <div className="relative h-[200px] w-full overflow-hidden rounded-xl border-2 border-black">
+                                        <div className="relative w-full overflow-hidden rounded-xl border-2 border-black">
                                             <Image
                                                 src={member.image}
                                                 alt={member.name}
-                                                fill
-                                                className="object-cover"
+                                                width={500}
+                                                height={500}
+                                                className="w-full h-auto"
                                             />
                                         </div>
                                     ) : (

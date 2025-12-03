@@ -121,12 +121,13 @@ export default function ProductPage() {
                         </Link>
                     </div>
                     <NeubrutalistCard color="white" className="rotate-2 p-0 overflow-hidden">
-                        <div className="relative h-[400px] w-full">
+                        <div className="relative w-full">
                             <Image
                                 src="/images/Google_AI_Studio_2025-12-03T08_01_46.102Z.png"
                                 alt="Future Technology Drone"
-                                fill
-                                className="object-cover"
+                                width={800}
+                                height={600}
+                                className="w-full h-auto"
                             />
                         </div>
                     </NeubrutalistCard>
@@ -176,12 +177,13 @@ function HorizontalScrollSection({ title, text, color, direction, imageSrc }: an
                     className={`${direction === "right" ? "md:order-1" : ""}`}
                 >
                     <NeubrutalistCard color={color} className="rotate-1 hover:rotate-0 transition-all duration-500 p-0 overflow-hidden">
-                        <div className="relative h-[400px] w-full">
+                        <div className="relative w-full">
                             <Image
                                 src={imageSrc}
                                 alt={title}
-                                fill
-                                className="object-cover"
+                                width={800}
+                                height={600}
+                                className="w-full h-auto"
                             />
                         </div>
                     </NeubrutalistCard>

@@ -78,12 +78,13 @@ export default function Home() {
             className="relative"
           >
             <NeubrutalistCard color="lavender" className="hover:rotate-0 transition-transform duration-300 p-0 overflow-hidden">
-              <div className="relative h-[400px] w-full">
+              <div className="relative w-full">
                 <Image
                   src="/images/Main_Page_1st_img.353Z.png"
                   alt="CropGuard App Interface"
-                  fill
-                  className="object-cover"
+                  width={800}
+                  height={600}
+                  className="w-full h-auto"
                 />
               </div>
             </NeubrutalistCard>
@@ -127,12 +128,13 @@ export default function Home() {
           className="mt-32 grid grid-cols-1 md:grid-cols-2 gap-12 items-center"
         >
           <NeubrutalistCard color="peach" className="-rotate-1 p-0 overflow-hidden">
-            <div className="relative h-[300px] w-full">
+            <div className="relative w-full">
               <Image
                 src="/images/Main_Page_2nd_img.295Z.png"
                 alt="Offline Capability Illustration"
-                fill
-                className="object-cover"
+                width={800}
+                height={600}
+                className="w-full h-auto"
               />
             </div>
           </NeubrutalistCard>
@@ -159,12 +161,13 @@ export default function Home() {
             </p>
           </div>
           <NeubrutalistCard color="pastelBlue" className="rotate-1 order-1 md:order-2 p-0 overflow-hidden">
-            <div className="relative h-[300px] w-full">
+            <div className="relative w-full">
               <Image
                 src="/images/Main_Page_3rd_img.911Z.png"
                 alt="Multi-language Support Illustration"
-                fill
-                className="object-cover"
+                width={800}
+                height={600}
+                className="w-full h-auto"
               />
             </div>
           </NeubrutalistCard>
