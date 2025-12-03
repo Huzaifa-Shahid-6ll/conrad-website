@@ -100,11 +100,14 @@ export default function TeamPage() {
                 >
                     <NeubrutalistCard color="cream" className="max-w-md w-full text-center">
                         <div className="mb-6">
-                            <ImagePlaceholder
-                                prompt="Professional headshot of Awais Niaz, male mentor/professor, wisdom, glasses, pastel cream background, neubrutalist style"
-                                height="h-[250px]"
-                                className="rounded-xl"
-                            />
+                            <div className="relative h-[250px] w-full overflow-hidden rounded-xl border-2 border-black">
+                                <Image
+                                    src="/images/Sir_Awais_Aamir_Niaz.jpeg"
+                                    alt="Awais Niaz"
+                                    fill
+                                    className="object-cover"
+                                />
+                            </div>
                         </div>
                         <h2 className="text-2xl font-bold">Awais Niaz</h2>
                         <p className="text-mint font-bold uppercase tracking-wide mt-1">Project Mentor</p>
