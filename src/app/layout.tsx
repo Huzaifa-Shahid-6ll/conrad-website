@@ -9,7 +9,7 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "CropGuard | AI Crop Disease Diagnosis",
+  title: "GreenFlux | AI Crop Disease Diagnosis",
   description: "Diagnose crop diseases instantly with AI. Works offline.",
 };
 

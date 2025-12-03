@@ -27,7 +27,7 @@ export default function Home() {
     <div className="min-h-screen flex flex-col gap-16 pb-20">
       {/* Navbar */}
       <nav className="w-full max-w-7xl mx-auto px-6 py-8 flex justify-between items-center">
-        <div className="text-2xl font-bold tracking-tighter">CropGuard</div>
+        <div className="text-2xl font-bold tracking-tighter">GreenFlux</div>
         <div className="hidden md:flex gap-8 font-medium">
           <Link href="/" className="hover:underline decoration-2 underline-offset-4">Home</Link>
           <Link href="/product" className="hover:underline decoration-2 underline-offset-4">Innovation</Link>
@@ -81,7 +81,7 @@ export default function Home() {
               <div className="relative w-full">
                 <Image
                   src="/images/Main_Page_1st_img.353Z.png"
-                  alt="CropGuard App Interface"
+                  alt="GreenFlux App Interface"
                   width={800}
                   height={600}
                   className="w-full h-auto"
@@ -141,7 +141,7 @@ export default function Home() {
           <div className="space-y-4">
             <h2 className="text-4xl font-bold">No Internet? No Problem.</h2>
             <p className="text-lg text-gray-700 leading-relaxed">
-              Farmers in remote areas often lack stable internet. CropGuard's AI model runs entirely on-device, ensuring instant diagnosis anywhere, anytime.
+              Farmers in remote areas often lack stable internet. GreenFlux's AI model runs entirely on-device, ensuring instant diagnosis anywhere, anytime.
             </p>
           </div>
         </motion.div>
@@ -157,7 +157,7 @@ export default function Home() {
           <div className="space-y-4 order-2 md:order-1">
             <h2 className="text-4xl font-bold">Speaks Your Language.</h2>
             <p className="text-lg text-gray-700 leading-relaxed">
-              Designed for accessibility. CropGuard supports multiple local languages including Urdu and English, making advanced agritech accessible to everyone.
+              Designed for accessibility. GreenFlux supports multiple local languages including Urdu and English, making advanced agritech accessible to everyone.
             </p>
           </div>
           <NeubrutalistCard color="pastelBlue" className="rotate-1 order-1 md:order-2 p-0 overflow-hidden">
@@ -177,7 +177,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="mt-20 border-t-2 border-black py-12 bg-white">
         <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
-          <div className="text-xl font-bold">CropGuard</div>
+          <div className="text-xl font-bold">GreenFlux</div>
           <div className="text-gray-600">© 2025 NextGen Team. All rights reserved.</div>
         </div>
       </footer>

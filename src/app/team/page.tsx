@@ -65,7 +65,7 @@ export default function TeamPage() {
         <div className="min-h-screen flex flex-col gap-12 pb-20">
             {/* Navbar */}
             <nav className="w-full max-w-7xl mx-auto px-6 py-8 flex justify-between items-center">
-                <Link href="/" className="text-2xl font-bold tracking-tighter">CropGuard</Link>
+                <Link href="/" className="text-2xl font-bold tracking-tighter">GreenFlux</Link>
                 <div className="hidden md:flex gap-8 font-medium">
                     <Link href="/" className="hover:underline decoration-2 underline-offset-4">Home</Link>
                     <Link href="/product" className="hover:underline decoration-2 underline-offset-4">Innovation</Link>
@@ -87,7 +87,7 @@ export default function TeamPage() {
                 >
                     <h1 className="text-5xl font-bold">Meet the <span className="bg-pastel-yellow px-2">Innovators</span></h1>
                     <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-                        The dedicated team behind CropGuard, working to revolutionize agriculture through technology.
+                        The dedicated team behind GreenFlux, working to revolutionize agriculture through technology.
                     </p>
                 </motion.div>
 

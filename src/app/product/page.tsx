@@ -14,7 +14,7 @@ export default function ProductPage() {
             {/* Navbar */}
             <nav className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b-2 border-black">
                 <div className="w-full max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-                    <Link href="/" className="text-2xl font-bold tracking-tighter">CropGuard</Link>
+                    <Link href="/" className="text-2xl font-bold tracking-tighter">GreenFlux</Link>
                     <div className="hidden md:flex gap-8 font-medium">
                         <Link href="/" className="hover:underline decoration-2 underline-offset-4">Home</Link>
                         <Link href="/product" className="underline decoration-2 underline-offset-4">Innovation</Link>
@@ -85,7 +85,7 @@ export default function ProductPage() {
 
             {/* Scrollytelling Section 3: The Solution */}
             <HorizontalScrollSection
-                title="Enter CropGuard"
+                title="Enter GreenFlux"
                 text="We built the impossible: An AI expert that lives in your pocket and works completely offline. By compressing advanced machine learning models, we bring university-level diagnosis to the cheapest smartphones."
                 color="mint"
                 direction="left"
