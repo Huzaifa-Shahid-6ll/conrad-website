@@ -99,13 +99,14 @@ export default function TeamPage() {
                     className="mb-20 flex justify-center"
                 >
                     <NeubrutalistCard color="cream" className="max-w-md w-full text-center">
-                        <div className="mb-6">
-                            <div className="relative h-[250px] w-full overflow-hidden rounded-xl border-2 border-black">
+                        <div className="mb-6 flex justify-center">
+                            <div className="relative w-full overflow-hidden rounded-xl border-2 border-black">
                                 <Image
                                     src="/images/Sir_Awais_Aamir_Niaz.jpeg"
                                     alt="Awais Niaz"
-                                    fill
-                                    className="object-cover"
+                                    width={500}
+                                    height={500}
+                                    className="w-full h-auto"
                                 />
                             </div>
                         </div>
