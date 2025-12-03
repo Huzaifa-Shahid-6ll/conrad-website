@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  
+  /* Neubrutalist Palette */
+  --color-cream: #FDFBF7;
+  --color-mint: #A1E3D8;
+  --color-peach: #FFC8B2;
+  --color-lavender: #D4C4FB;
+  --color-pastel-blue: #B8D8FC;
+  --color-pastel-yellow: #FDE047;
+  
+  /* Shadows */
+  --shadow-neubrutalist: 4px 4px 0px 0px rgba(0,0,0,1);
+  --shadow-neubrutalist-sm: 2px 2px 0px 0px rgba(0,0,0,1);
+  --shadow-neubrutalist-bold: 8px 8px 0px 0px rgba(0,0,0,1);
+  
+  /* Border Radius */
+  --radius-neubrutalist: 16px;
+}
+
+:root {
+  --background: #FDFBF7; /* Cream default */
+  --foreground: #000000; /* Jet Black */
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-outfit), sans-serif;
+}
